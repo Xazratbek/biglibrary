@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from catalog.models import Book
 
+
 class Reviews(models.Model):
     rating_choices = [
         ("1","1"),
